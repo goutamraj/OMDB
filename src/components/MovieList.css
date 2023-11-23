@@ -1,0 +1,25 @@
+
+.movie-list {
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .movie-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    height: 480px;
+    width: 250px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: scroll;
+    margin-top: auto;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
