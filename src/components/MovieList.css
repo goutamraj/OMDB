@@ -8,7 +8,7 @@
   }
   
   .movie-card {
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 8px;
     padding: 10px;
     margin: 10px;
@@ -17,9 +17,12 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     overflow: scroll;
     margin-top: auto;
-    background-color: rgb(229, 9, 20);
-    color: white;
+    background-color: rgb(61, 60, 60);
+    color: rgb(255, 255, 255);
     margin-left: 50px;
     margin-right: 50px;
   }
   
+  img {
+    border-color: #ffffff;
+  }

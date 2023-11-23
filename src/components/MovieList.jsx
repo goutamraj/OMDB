@@ -15,7 +15,7 @@ movies = [{Title : "ABC" ,Genre:"",Released :"",imdbRating:"",Plot:""},
     <div className="movie-list">
       {movies.map((movie, index) => (
         <div key={index} className="movie-card">
-          <img src = {movie.Poster} style={{background:"black",height:"150px",width:"140px"}}  />
+          <img src = {movie.Poster} style={{background:"black",height:"150px",width:"140px" , borderColor:'white',borderRadius:'1px'}}  />
           <h3>{movie.Title}</h3>
           <h6>Genre: {movie.Genre}</h6>
           <h6>Actors: {movie.Actors}</h6>
